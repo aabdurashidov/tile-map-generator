@@ -97,6 +97,7 @@ public class GeneratorService {
             }
         }
 
+        validCombinations.add(new int[][]{{1, 1, 1}, {1, 1, 1}, {1, 1, 1}});
         return validCombinations;
     }
 }
